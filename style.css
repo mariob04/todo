@@ -21,6 +21,13 @@ body {
   border-radius: 8px;
 }
 
+#todo-list {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: space-between;
+}
+
 #new-task {
   border: none;
   border-bottom: 1px solid gray;
@@ -63,7 +70,7 @@ li {
   color: #35333388;
 }
 
-.delete-button {
+.deleteBtn {
   cursor: pointer;
   background-color: #ff6961;
   color: #fff;
